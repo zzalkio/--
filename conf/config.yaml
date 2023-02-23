@@ -1,0 +1,17 @@
+mode: "dev"
+port: 8081
+
+
+mysql:
+  host: 192.168.137.1
+  port: 13306
+  user: root
+  password: 123456
+  db: douyin
+  max_open_conns: 100
+  max_idle_conns: 20
+
+redis:
+  host: 192.168.137.1
+  port: 6379
+  db: 0
